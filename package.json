@@ -4,7 +4,7 @@
   "description": "Begin basic Hello World! app for Node",
   "scripts": {
     "start": "cross-env NODE_ENV=testing npx sandbox",
-    "build": "echo test > ./public/test.ignore.css && ls public"
+    "build": "rm public/static.json && echo test > ./public/test.ignore.css && ls public"
   },
   "devDependencies": {
     "@architect/functions": "latest",
