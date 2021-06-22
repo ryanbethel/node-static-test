@@ -1,5 +1,4 @@
-const fs = require('fs')
-const static = fs.readFileSync('@architect/shared/static.json','utf-8')
+const arc = require('@architect/functions')
 
 // src/http/get-index/index.js
 let body = `
@@ -7,7 +6,7 @@ let body = `
 <html lang=en>
   <body>
     <h1>Hello world!</h1>
-  <pre>${static}</pre>
+  <pre>${arc.static('test.ignore.css')}</pre>src/
   </body>
 </html>
 `
