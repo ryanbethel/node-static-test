@@ -6,7 +6,7 @@ let body = `
 <html lang=en>
   <body>
     <h1>Hello world!</h1>
-  <pre>${arc.static('always-here.txt')}</pre>src/
+  <pre>${arc.static('at-build.ignore.txt')}</pre>src/
   </body>
 </html>
 `
