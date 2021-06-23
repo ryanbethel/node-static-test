@@ -1,8 +1,6 @@
 @app
 node-test-app
 
-@begin
-install echo skipping_install
 
 @shared
 
