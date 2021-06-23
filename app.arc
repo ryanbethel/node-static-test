@@ -7,5 +7,6 @@ node-test-app
 fingerprint true
 
 @http
-get /test
+get /atbuild
+get /alwayshere
 
